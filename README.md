@@ -1,4 +1,6 @@
 # mm‑traywatch
+> **Works on macOS (tested) but _should_ also build and run on Linux & Windows**
+
 A tiny menu‑bar for Mattermost written in Go + [Fyne](https://github.com/fyne-io/fyne) that shows a color‑coded dot indicating status:
 
 | Theme "light"                       | Theme "dark"                       | Means                                  |
@@ -77,7 +79,7 @@ Save as `~/Library/LaunchAgents/com.mm-traywatch.plist`
 </dict>
 </plist>
 ```
-_(Adjust the path in <ProgramArguments> to wherever you placed the binary, e.g. /Applications/mm-traywatch.)_
+_(Adjust the path in `<ProgramArguments>` to wherever you placed the binary, e.g. /Applications/mm-traywatch.)_
 
 ## 2. Load and enable it
 ```bash
