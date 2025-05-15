@@ -1,11 +1,11 @@
 # mm‑traywatch
 A tiny menu‑bar for Mattermost written in Go + [Fyne](https://github.com/fyne-io/fyne) that shows a color‑coded dot indicating status:
 
-| Dot     | Means                                  |
-|---------|----------------------------------------|
-| 🔴 red  | Unread direct message and/or @‑mention |
-| 🔵 blue | Unread posts                           |
-| _blank_ | Everything read                        |
+| Theme "light"                       | Theme "dark"                       | Means                                  |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| ![red](./icons/light_dot_red.svg)   | ![red](./icons/dark_dot_red.svg)   | Unread direct message and/or @‑mention |
+| ![blue](./icons/light_dot_blue.svg) | ![blue](./icons/dark_dot_blue.svg) | Unread posts                           |
+| ![blank](./icons/light.svg)         | ![blank](./icons/dark.svg)         | Everything read                        |
 
 
 # Installation
